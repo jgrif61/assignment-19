@@ -74,7 +74,7 @@ def main():
         'order',
         'parameter',
         'mean',
-        '95CI',
+        'ci',
         'min',
         'max',
         'median']
