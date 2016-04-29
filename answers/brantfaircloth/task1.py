@@ -92,7 +92,7 @@ def main():
             order_results['mean'] = series.mean()
             order_results['ci'] = 1.96 * (numpy.std(series, ddof=1) / numpy.sqrt(len(series)))
             order_results['min'] = series.min()
-            order_results['max'] = series.min()
+            order_results['max'] = series.max()
             order_results['median'] = series.median()
             new_df = new_df.append(order_results, ignore_index=True)
     print("Writing new CSV file...")
